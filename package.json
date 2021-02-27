@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
     "test": "set NODE_ENV=test&&jest",
-    "posttest": "del .\\src\\database\\database.test.sqlite"
+    "posttest": "del .\\src\\database\\databas.test.sqlite"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -25,5 +25,7 @@
     "ts-jest": "^26.5.2",
     "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.5"
-  }
+  },
+  "repository": "https://github.com/andre-s-nascimento/nlw04-nodejs-api.git",
+  "author": "André Soares Nascimento <andresoaresnascimento@gmail.com>"
 }
